@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>TUI boekingsformulier</h1>
+  <form action="/action_page.php">
+        <label for="voornaam">voornaam:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="achternaam">achternaam:</label><br>
+        <input type="text" id="achternaam" name="achternaam"><br><br>
+        <label for="straat met huisnummer">straat met huisnummer:</label><br>
+       <input type="text" id="straat met huisnummer" name="straat met huisnummer"><br><br>
+       <label for="postcode">postcode:</label><br>
+       <input type="text" id="postcode" name="postcode"><br><br>
+       <label for="stad">stad:</label><br>
+       <input type="text" id="stad" name="stad"><br><br>
+       <label for="land">land:</label><br>
+       <input type="text" id="land" name="land"><br><br>
+       <label for="BSN-nummers (mag niet meer dan 9 cijfers!)">BSN-nummer:(mag niet meer dan 9 cijfers!)</label><br>
+       <input type="text" id="BSN-nummer" name="BSN-nummer"><br><br>
+      
+
+
+<section> <label for="gender">kies je gender:</label>
+    <select id="genders" name="genders">
+      <option value="man">man</option>
+      <option value="vrouw">vrouw</option>
+      <option value="anders">anders</option>
+      <option value="zeg ik liever niet">zeg ik liever niet</option>
+    </select>
+</section>
+   <br> <br>  
+<section> <label for="vakantie land">kies je vakantie land:</label>
+    <select id="vakantie land" name="vakantielanden">
+      <option value="Spanje">Spanje</option>
+      <option value="Italië">Italië</option>
+      <option value="Egypte">Egypte</option>
+      <option value="Griekenland">Griekenland</option>
+    </select>
+</section>
+<br> <br>
+<section> <label for="gender">kies je vertrek datum:</label>
+    <select id="vertrek datum" name="vertrek datums">
+      <option value="21-9-2022">21-9-2022</option>
+      <option value="23-9-2022">23-9-2022</option>
+      <option value="25-9-2022">25-9-2022</option>
+      <option value="27-9-2022">27-9-2022</option>
+    </select>
+</section>
+<br> <br>
+<section> <label for="datum terugkomst">Datum terugkomst:</label>
+    <select id="Datum terugkomst" name="Datum terugkomst">
+      <option value="3-10-2022">3-10-2022</option>
+      <option value="5-10-2022">5-10-2022</option>
+      <option value="7-10-2022">7-10-2022</option>
+      <option value="9-10-2022">9-10-2022</option>
+    </select>
+</section>
+<br> <br>
+<section> <label for="Aantal reisgenoten">Aantal reisgenoten:</label>
+    <select id="Aantal reisgenoten" name="Aantal reisgenoten">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+</section>
+<br> <br>
+<label for="E-mail aderes">E-mail aderes:</label><br>
+<input type="text" id="E-mail aderes" name="E-mail aderes"><br><br>
+
+<label for="Wachtwoord">Wachtwoord:</label><br>
+<input type="text" id="Wachtwoord" name="Wachtwoord"><br><br>
+
+
+<button type="button" onclick="alert('Hello World!')">Boek nu!</button>
+
+</form>
+
+    
+</body>
+</html>
