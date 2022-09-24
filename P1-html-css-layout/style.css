@@ -8,6 +8,12 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-color: black;
+  background-image: url("hacker.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 75rem; 
 }
 
 nav {
@@ -36,4 +42,18 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+footer {
+  background: #00a8c7;
+  height: 20rem;
+}
+H1 {
+  font-style: italic;
+}
+section {
+  height: 10rem;
+  width: 10rem;
+}
+p {
+  color: gold;
 }
