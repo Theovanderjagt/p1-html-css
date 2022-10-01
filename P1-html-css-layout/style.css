@@ -127,3 +127,31 @@ margin: 10rem;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: blue;}
 
+
+.html-text {
+  width: 40vw;
+  float: right
+}
+
+.java-logo {
+  float: right;
+}
+
+.java-text {
+  width: 40vw;
+  float: left
+}
+
+.php-text {
+  width: 40vw;
+float: right;
+}
+
+.sql-text {
+  width: 40vw;
+  float: left;
+}
+
+.sql-logo {
+  float: right;
+}
