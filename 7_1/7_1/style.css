@@ -1,0 +1,108 @@
+html{
+  font-size: 62,5%;
+}
+
+.witte_logo{
+  display: none;
+}
+
+nav{
+ padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  
+}
+
+.eerste {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+ 
+}
+
+.tweede {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.laatste {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}   
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+nav {
+  background-color: rgb(255, 0, 0);
+}
+.eerste {
+  background-color: rgb(166, 255, 0);
+
+  
+}
+.tweede {
+  background-color: rgb(237, 100, 157);
+}
+.laatste {
+  background-color: rgb(101, 95, 160);
+}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+     display: flex;
+      justify-content: center;
+      background-color: rgb(226, 43, 58);
+  }
+  .eerste{
+      background-color: rgb(0, 140, 255);
+  }
+  .tweede {
+      background-color: rgb(233, 122, 137) ;
+  }
+  .laatste {
+      background-color: rgb(163, 204, 50);
+  }
+  }
+
+  @media only screen and (max-width: 767px) {
+  
+  .witte_logo {
+      background-color: rgba(255, 255, 255, 0);
+      height: 15px;
+      width: 15px;
+      display: inline-block;
+      margin-top: -23px;
+      margin-left: 500px;
+      margin-bottom: 50px;
+      z-index: 1;
+  }
+      nav {
+      background-color: rgb(238, 144, 218);
+  }
+  .eerste {
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
+      background-color: rgb(125, 139, 0);
+  }
+  .tweede {
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
+      background-color: rgb(55, 0, 255);
+  }
+  .laatste {
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
+      background-color: rgb(166, 255, 0);
+  }
+}
